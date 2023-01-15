@@ -31,7 +31,7 @@ const CreateNote = ({setNotes}) => {
           <IoIosArrowBack />
         </Link>
         <button className="btn lg primary" onClick={handleSubmit}>
-          Save
+          Save note
         </button>
       </header>
       <form className="create-note__form" onSubmit={handleSubmit}>
